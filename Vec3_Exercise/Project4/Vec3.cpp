@@ -82,3 +82,11 @@ vec3 vec3::operator= (vec3 &vec1) const {
 
 	return vec1;
 }
+
+
+float vec3::distance_to(vec3 vec) const {
+
+	vec = operator+= (vec); //As we want the distance (an absolute value), we don't care if we call the += operator or the -= one
+	return sqrtf((powf(vec.x, 2) + powf(vec.y, 2) + powf(vec.z, 2)));
+
+}

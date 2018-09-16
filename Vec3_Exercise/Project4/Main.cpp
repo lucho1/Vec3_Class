@@ -106,6 +106,14 @@ int main() {
 	cout << endl << "Now A2 = B, which is: (" << A2.x << ", " << A2.y << ", " << A2.z << ")" << endl;
 
 
+
+	//------------------------ Check distance to ------------------------//
+	vec3 V1(1, 1, 1);
+	vec3 V2(2, 2, 3);
+	float distanceV1V2 = V1.distance_to(V2);
+	
+	cout << endl << "Distance V1-V2 is: " << distanceV1V2 << endl << endl;
+
 	//------------------------ END ------------------------//
 	cout << endl << endl;
 	system("pause");
