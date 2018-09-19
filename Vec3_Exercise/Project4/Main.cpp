@@ -6,9 +6,9 @@ using namespace std;
 int main() {
 
 
-	vec3 A(4, 4, 5);
-	vec3 A2(4, 4, 5);
-	vec3 B(6, 1, -2);
+	vec3<float> A(4, 4, 5);
+	vec3<float> A2(4, 4, 5);
+	vec3<float> B(6, 1, -2);
 
 	//------------------------ PRINT VECTORS ------------------------//
 	cout << "A = " << A.x << ", " << A.y << ", " << A.z << endl;
@@ -73,8 +73,8 @@ int main() {
 	//------------------------ Check operator+() and operator-() through A2 + B and A2 - B ------------------------//
 	cout << endl << "checking operator+() and operator-()" << endl;
 
-	vec3 sum = A2.operator+(B); //sum = A2 + B
-	vec3 sub = A2.operator-(B); //sub = A2 - B
+	vec3<float> sum = A2.operator+(B); //sum = A2 + B
+	vec3<float> sub = A2.operator-(B); //sub = A2 - B
 
 	cout << endl << "Sum of A2 + B is: (" << sum.x << ", " << sum.y << ", " << sum .z << ")" << endl;
 	cout << endl << "Substraction of A2 - B is: (" << sub.x << ", " << sub.y << ", " << sub.z << ")" << endl;
@@ -108,8 +108,8 @@ int main() {
 
 
 	//------------------------ Check distance to ------------------------//
-	vec3 V1(1, 1, 1);
-	vec3 V2(2, 2, 3);
+	vec3<float> V1(1, 1, 1);
+	vec3<float> V2(2, 2, 3);
 	float distanceV1V2 = V1.distance_to(V2);
 	
 	cout << endl << "Distance V1-V2 is: " << distanceV1V2 << endl << endl;

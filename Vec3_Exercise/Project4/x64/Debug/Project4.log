@@ -1,0 +1,6 @@
+﻿  Main.cpp
+c:\users\lucho\desktop\vec3_class-master\vec3_exercise\project4\vec3.h(68): error C2440: 'inicializando': no se puede realizar la conversión de 'float' a 'vec3<float>'
+  c:\users\lucho\desktop\vec3_class-master\vec3_exercise\project4\vec3.h(68): note: Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+  c:\users\lucho\desktop\vec3_class-master\vec3_exercise\project4\vec3.h(66): note: durante la compilación de la función miembro de plantilla clase de 'vec3<float> vec3<float>::operator -(const vec3<float> &) const'
+  c:\users\lucho\desktop\vec3_class-master\vec3_exercise\project4\main.cpp(77): note: vea la referencia a la creación de instancias de plantilla de función 'vec3<float> vec3<float>::operator -(const vec3<float> &) const' que se está compilando
+  c:\users\lucho\desktop\vec3_class-master\vec3_exercise\project4\main.cpp(9): note: vea la referencia a la creación de instancias de plantilla clase de 'vec3<float>' que se está compilando
